@@ -6,17 +6,12 @@ export const NavBar = (props) => {
   
   const links = [
     { id: 1, link: "home" },
-
     { id: 2, link: "about us" },
     { id: 4, link: "resources" },
-
     { id: 3, link: "our Team" },
-
- 
-
     { id: 5, link: "alumni" },
-    { id: 5, link: "gallery" },
-    { id: 5, link: "contact Us" },
+    { id: 6, link: "gallery" },
+    { id: 7, link: "contact Us" },
 
     
   ];
