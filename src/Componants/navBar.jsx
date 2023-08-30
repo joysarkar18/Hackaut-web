@@ -2,17 +2,17 @@ import React from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-export const NavBar = (props) => {
-  const links = [
-    { id: 1, link: "home" },
-    { id: 2, link: "about us" },
-    { id: 3, link: "resources" },
-    { id: 4, link: "our Team" },
-    { id: 5, link: "alumni" },
-    { id: 6, link: "gallery" },
-    { id: 7, link: "contact Us" },
-  ];
+const links = [
+  { id: 1, link: "home" },
+  { id: 2, link: "about us" },
+  { id: 3, link: "resources" },
+  { id: 4, link: "our Team" },
+  { id: 5, link: "alumni" },
+  { id: 6, link: "gallery" },
+  { id: 7, link: "contact Us" },
+];
 
+export const NavBar = (props) => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-white fixed">
       <div className="flex text-xs">
