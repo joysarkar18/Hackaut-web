@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import './App.css' ;
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import NavBar from './Componants/navBar';
+import Form from './Componants/Form';
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
     <>
     <NavBar nav={nav} setNav= {setNav}></NavBar>
       {/* <div className='flex text-green-600 font-bold justify-center text-6xl '>HACKAUT</div> */}
+    <Form/>
     </>
   );
 }
