@@ -14,7 +14,7 @@ const links = [
 
 const NavBar2 = (props) => {
   return (
-    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-blue-300 text-sm py-4">
+    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-blue-200 text-sm py-4">
       <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
           <a className="flex-none text-xl font-semibold" href="#">
