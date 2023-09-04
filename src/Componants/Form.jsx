@@ -44,6 +44,7 @@ const Form = () => {
               </div>
               <div class="email details">
                 {/* <i class="fas fa-envelope"><FaEnvelope/></i>  */}
+                {/* <i class="fas fa-envelope"><FaEnvelope/></i>  */}
                 <i
                   style={{
                     display: "flex",
