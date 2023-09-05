@@ -27,7 +27,7 @@ export const Hero = () => {
           <h2 className="mb-5 font-sans text-6xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none">
             HACKAUT
             <br className="hidden md:block" />
-            <span className="text-3xl"> Tech Club of </span>
+            <span className="text-3xl"> Coding Club of </span>
             <span className="inline-block text-blue-400">MAKAUT</span>
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
