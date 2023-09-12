@@ -9,6 +9,7 @@ import "./App.css";
 import NavBar2 from "./Componants/navBar2";
 import { Hero } from "./Componants/hero";
 import Form from "./Componants/Form";
+import Error from "./Componants/Error";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,12 @@ const router = createBrowserRouter([
     element: <Hero/>
   },
   {
-    path: "Contact Us",
+    path: "contact",
     element: <Form/>
+  },
+  {
+    path: "*" ,
+    element: <Error/>
   }
 ]);
 

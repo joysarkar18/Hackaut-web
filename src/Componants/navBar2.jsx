@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-scroll";
+//import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+
 const links = [
-  { id: 1, link: "Home" },
-  { id: 2, link: "About Us" },
-  { id: 3, link: "Resources" },
-  { id: 4, link: "Our Team" },
-  { id: 5, link: "Alumni" },
-  { id: 6, link: "Gallery" },
-  { id: 7, link: "Contact Us" },
+  { id: 1, link: "Home", path: "/" },
+  { id: 2, link: "About Us", path: "/about" }, // Update the path for "About Us"
+  { id: 3, link: "Resources", path: "/resources" }, // Update the path for "Resources"
+  { id: 4, link: "Our Team", path: "/team" }, // Update the path for "Our Team"
+  { id: 5, link: "Alumni", path: "/alumni" }, // Update the path for "Alumni"
+  { id: 6, link: "Gallery", path: "/gallery" }, // Update the path for "Gallery"
+  { id: 7, link: "Contact Us", path: "/contact" }, // Update the path for "Contact Us"
 ];
 
 const NavBar2 = (props) => {
@@ -48,7 +50,7 @@ const NavBar2 = (props) => {
                         href="#"
                         aria-current="page"
                       >
-                        <Link to={link.link} smooth duration={500}>
+                        <Link to={link.path} smooth duration={500}>
                           {link.link}
                         </Link>
                       </a>
@@ -72,7 +74,7 @@ const NavBar2 = (props) => {
                   href="#"
                   aria-current="page"
                 >
-                  <Link to={link.link} smooth duration={500}>
+                  <Link to={link.path} smooth duration={500}>
                     {link.link}
                   </Link>
                 </a>
