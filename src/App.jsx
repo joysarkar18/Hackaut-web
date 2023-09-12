@@ -14,11 +14,11 @@ import Error from "./Componants/Error";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Hero/>
+    element: <div><NavBar2/><Hero/></div>
   },
   {
-    path: "contact",
-    element: <Form/>
+    path: "/contact",
+    element: <div><NavBar2/><Form/></div>
   },
   {
     path: "*" ,
@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-      <NavBar2 nav={nav} setNav={setNav}></NavBar2>
+      {/* <NavBar2 nav={nav} setNav={setNav}></NavBar2> */}
       {/* <Hero/>
       <Form/> */}
       < RouterProvider router = {router} />
