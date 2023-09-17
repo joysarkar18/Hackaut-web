@@ -40,14 +40,14 @@ export const Hero = () => {
               href="/"
               className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
             >
-              Get started
+              Join Us
             </a>
             <a
               href="/"
               aria-label=""
               className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-blue-700"
             >
-              Learn more
+              Learn DSA
             </a>
           </div>
         </div>
