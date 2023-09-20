@@ -28,7 +28,7 @@ export const Hero = () => {
             HACKAUT
             <br className="hidden md:block" />
             <span className="text-3xl"> Coding Club of </span>
-            <span className="inline-block text-blue-400">MAKAUT</span>
+            <span className="inline-block text-blue-400 dustin-text-effect">MAKAUT</span>
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
             MAKAUT's premier tech club, HACKAUT, cultivates innovation, fosters
