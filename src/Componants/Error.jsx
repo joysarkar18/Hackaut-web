@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Error = () => {
   return (
@@ -16,9 +17,9 @@ const Error = () => {
 
                 <p>the page you are looking for not avaible!</p>
 
-                <a href="/" class="link_404 rounded">
+                <NavLink to="/" className="link_404 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
                   Go to Home
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
