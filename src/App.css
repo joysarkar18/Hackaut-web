@@ -157,6 +157,7 @@
 
 .dustin-text-effect:hover {
   text-shadow: 1px 1px 10px rgb(96 165 250);
+  cursor:pointer;
 }
 
 /*======================

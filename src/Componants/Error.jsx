@@ -13,10 +13,8 @@ const Error = () => {
               </div>
 
               <div class="contant_box_404">
-                <h3 class="h2">Look like you're lost</h3>
-
-                <p>the page you are looking for not avaible!</p>
-
+                <h3 class="h2">Looks like you're lost</h3>
+                <p>The page you are looking for is not available!</p>
                 <NavLink to="/" className="link_404 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
                   Go to Home
                 </NavLink>

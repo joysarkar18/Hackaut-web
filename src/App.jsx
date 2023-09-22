@@ -11,32 +11,42 @@ import { Hero } from "./Componants/hero";
 import Form from "./Componants/Form";
 import Error from "./Componants/Error";
 
-
-
 function App() {
   const [nav, setNav] = useState(false);
 
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <><NavBar2 nav={nav} setNav={setNav}/><Hero/></>
+      element: (
+        <>
+          <NavBar2 nav={nav} setNav={setNav} />
+          <Hero />
+        </>
+      ),
     },
     {
       path: "contact",
-      element: <><NavBar2 nav={nav} setNav={setNav}/><Form/></>
+      element: (
+        <>
+          <NavBar2 nav={nav} setNav={setNav} />
+          <Form />
+        </>
+      ),
     },
     {
-      path: "*" ,
-      element: <Error/>
-    }
+      path: "*",
+      element: (
+        <>
+          <NavBar2 nav={nav} setNav={setNav} />
+          <Error />
+        </>
+      ),
+    },
   ]);
 
   return (
     <>
-      {/* <NavBar2 nav={nav} setNav={setNav}></NavBar2> */}
-      {/* <Hero/>
-      <Form/> */}
-      < RouterProvider router = {router} />
+      <RouterProvider router={router} />
     </>
   );
 }
