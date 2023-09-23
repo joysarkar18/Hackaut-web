@@ -3,7 +3,7 @@ import Picture from "../assets/341099819_244778971259675_7302734960212248906_n.j
 
 export const Hero = () => {
   return (
-    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0  bg-gradient-to-r from-blue-50 text-blue-100">
+    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 bg-gradient-to-r from-blue-50 text-blue-100 border-b-8 border-blue-400">
       <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
         <svg
           className="absolute left-0 hidden h-full text-blue-50 transform -translate-x-1/2 lg:block"
@@ -28,7 +28,9 @@ export const Hero = () => {
             HACKAUT
             <br className="hidden md:block" />
             <span className="text-3xl"> Coding Club of </span>
-            <span className="inline-block text-blue-400 dustin-text-effect">MAKAUT</span>
+            <span className="inline-block text-blue-400 dustin-text-effect">
+              MAKAUT
+            </span>
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
             MAKAUT's premier tech club, HACKAUT, cultivates innovation, fosters
@@ -47,7 +49,7 @@ export const Hero = () => {
               aria-label=""
               className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-blue-700"
             >
-              Learn DSA
+              Learn About Us
             </a>
           </div>
         </div>

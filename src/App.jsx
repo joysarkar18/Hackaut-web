@@ -10,7 +10,9 @@ import NavBar2 from "./Componants/navBar2";
 import { Hero } from "./Componants/hero";
 import Form from "./Componants/Form";
 import Error from "./Componants/Error";
-
+import HomeContent from "./Componants/HomeContent";
+import { Feature } from "./Componants/features";
+import { Footer } from "./Componants/footer";
 function App() {
   const [nav, setNav] = useState(false);
 
@@ -21,6 +23,8 @@ function App() {
         <>
           <NavBar2 nav={nav} setNav={setNav} />
           <Hero />
+          <Feature />
+          <HomeContent />
         </>
       ),
     },
@@ -30,6 +34,7 @@ function App() {
         <>
           <NavBar2 nav={nav} setNav={setNav} />
           <Form />
+          <Footer />
         </>
       ),
     },
@@ -39,6 +44,7 @@ function App() {
         <>
           <NavBar2 nav={nav} setNav={setNav} />
           <Error />
+          <Footer />
         </>
       ),
     },
