@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeContent = () => {
   return (
-    <div className="px-4 py-16 mx-auto md:max-w-full md:px-24 lg:px-8 lg:py-20 bg-gradient-to-b from-blue-50 to-blue-200">
+    <div className="px-4 py-16 mx-auto md:max-w-full md:px-24 lg:px-8 lg:py-20 bg-gradient-to-b from-blue-50 to-blue-100">
       <div className="p-8 rounded-2xl shadow-md border-4 border-blue-400 sm:p-16 bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">

@@ -14,7 +14,7 @@ const links = [
 
 const NavBar2 = (props) => {
   return (
-    <header className="flex flex-wrap md:justify-start sm:flex-nowrap z-50 w-full bg-blue-200 text-sm py-4">
+    <header className="flex flex-wrap md:justify-start sm:flex-nowrap z-50 w-full bg-blue-200 text-sm py-4 border-b-2 border-blue-700">
       <nav className="max-w-[85rem] w-full mx-auto px-4 md:flex md:items-center md:justify-between">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
           <NavLink to="/" className="flex-none text-xl font-black"> {/* Use Link instead of <a> */}

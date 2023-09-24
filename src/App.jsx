@@ -25,6 +25,7 @@ function App() {
           <Hero />
           <Feature />
           <HomeContent />
+          <Footer />
         </>
       ),
     },

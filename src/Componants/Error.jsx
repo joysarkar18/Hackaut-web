@@ -4,7 +4,7 @@ import ErrorMsg from "../assets/105.svg"
 
 const Error = () => {
   return (
-    <section class="page_404 font-bold">
+    <section class="page_404 font-bold mb-16 bg-white">
       <div class="container1">
         <div class="row">
           <div class="col-sm-12 ">
