@@ -59,7 +59,7 @@ function Footer() {
                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
                 <ul className="list-disc list-inside text-blueGray-600">
                   <li className="mb-2">
-                    <a className="hover:text-blueGray-800 font-semibold text-sm" href="/lisence">MIT License</a>
+                    <a className="hover:text-blueGray-800 font-semibold text-sm" href="/lisence">License</a>
                   </li>
                   <li className="mb-2">
                     <a className="hover:text-blueGray-800 font-semibold text-sm" href="/terms&condition">Terms &amp; Conditions</a>
