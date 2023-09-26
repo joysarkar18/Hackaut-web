@@ -13,6 +13,7 @@ import Error from "./Componants/Error";
 import HomeContent from "./Componants/HomeContent";
 import { Feature } from "./Componants/features";
 import { Footer } from "./Componants/footer";
+import Footer2 from "./Componants/Footer2";
 function App() {
   const [nav, setNav] = useState(false);
 
@@ -25,7 +26,7 @@ function App() {
           <Hero />
           <Feature />
           <HomeContent />
-          <Footer />
+          <Footer2 />
         </>
       ),
     },
@@ -45,7 +46,7 @@ function App() {
         <>
           <NavBar2 nav={nav} setNav={setNav} />
           <Error />
-          <Footer />
+          <Footer2 />
         </>
       ),
     },
