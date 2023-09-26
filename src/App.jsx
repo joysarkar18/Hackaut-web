@@ -36,7 +36,7 @@ function App() {
         <>
           <NavBar2 nav={nav} setNav={setNav} />
           <Form />
-          <Footer />
+          <Footer2 />
         </>
       ),
     },
