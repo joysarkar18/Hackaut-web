@@ -45,13 +45,13 @@ function Footer() {
                     <a className="hover:text-gray-800 font-semibold text-sm" href="/about">About Us</a>
                   </li>
                   <li className="mb-2">
-                    <a className="hover:text-Gray-800 font-semibold text-sm" href="/blog">Blog</a>
+                    <a className=" hover:text-gray-800 font-semibold text-sm" href="/blog">Blog</a>
                   </li>
                   <li className="mb-2">
-                    <a className="hover:text-Gray-800 font-semibold text-sm" href="/">Github</a>
+                    <a className="hover:text-gray-800 font-semibold text-sm" href="/">Github</a>
                   </li>
                   <li className="mb-2">
-                    <a className="hover:text-Gray-800 font-semibold text-sm" href="/">Free Products</a>
+                    <a className="hover:text-gray-800 font-semibold text-sm" href="/">Free Products</a>
                   </li>
                 </ul>
               </div>
@@ -59,16 +59,16 @@ function Footer() {
                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
                 <ul className="list-disc list-inside text-blueGray-600">
                   <li className="mb-2">
-                    <a className="hover:text-blueGray-800 font-semibold text-sm" href="/lisence">License</a>
+                    <a className="hover:text-gray-800 font-semibold text-sm" href="/lisence">License</a>
                   </li>
                   <li className="mb-2">
-                    <a className="hover:text-blueGray-800 font-semibold text-sm" href="/terms&condition">Terms &amp; Conditions</a>
+                    <a className="hover:text-gray-800 font-semibold text-sm" href="/terms&condition">Terms &amp; Conditions</a>
                   </li>
                   <li className="mb-2">
-                    <a className="hover:text-blueGray-800 font-semibold text-sm" href="/privacy">Privacy Policy</a>
+                    <a className="hover:text-gray-800 font-semibold text-sm" href="/privacy">Privacy Policy</a>
                   </li>
                   <li className="mb-2">
-                    <a className="hover:text-blueGray-800 font-semibold text-sm" href="/contact">Contact Us</a>
+                    <a className="hover:text-gray-800 font-semibold text-sm" href="/contact">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -80,7 +80,7 @@ function Footer() {
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-blueGray-500 font-semibold py-1">
               Copyright © <span id="get-current-year">2023</span>
-              <div className="hover:text-gray-800" >
+              <div className="hover:text-gray-800 cursor-pointer" >
               HACKAUT Inc. All rights reserved.
               </div>
             </div>
