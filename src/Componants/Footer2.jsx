@@ -37,7 +37,7 @@ function Footer() {
             </div>
           </div>
           <div className="w-full lg:w-6/12 px-4 ">
-            <div className="lg:flex lg:items-top mb-6">
+            <div className="lg:flex lg:items-top mb-6 md:flex sm:flex">
               <div className="w-full lg:w-4/12 px-4 ml-auto">
                 <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
                 <ul className="list-disc list-inside text-blueGray-600">
