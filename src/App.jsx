@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -17,17 +17,30 @@ import Footer2 from "./Componants/Footer2";
 import Loader from "./Componants/Loader/Loader";
 function App() {
   const [nav, setNav] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
 
   const router = createBrowserRouter([
     {
       path: "/",
       element: (
         <>
-          <NavBar2 nav={nav} setNav={setNav} />
-          <Hero />
-          <Feature />
-          <HomeContent />
-          <Footer2 />
+          {isLoading ? (
+            <Loader />
+          ) : (
+            <>
+              <NavBar2 nav={nav} setNav={setNav} />
+              <Hero />
+              <Feature />
+              <HomeContent />
+              <Footer2 />
+            </>
+          )}
         </>
       ),
     },
@@ -48,14 +61,6 @@ function App() {
           <NavBar2 nav={nav} setNav={setNav} />
           <Error />
           <Footer2 />
-        </>
-      ),
-    },
-    {
-      path: "loader",
-      element: (
-        <>
-          <Loader/>
         </>
       ),
     },

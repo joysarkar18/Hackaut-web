@@ -7,7 +7,7 @@ const Form = () => {
   return (
     <div className="bodyc">
       <div className="contacthakaut">
-        <div class="container text-blue-600 ">
+        <div class="container text-blue-600 border-4 border-blue-400">
           <div class="content">
             <div class="left-side">
               <div class="address details">

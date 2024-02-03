@@ -9,7 +9,7 @@ function Footer() {
         <div className="lg:flex lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl font-bold text-black">HACKAUT</h4>
-            <h5 className="text-lg mt-0 mb-2 text-blue-600">
+            <h5 className="text-lg mt-0 mb-2 text-blue-800">
             In our development community, we focused on brushing up
                   skills, team management and verious other aspects of professional life . 
             </h5>
@@ -79,7 +79,7 @@ function Footer() {
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-blueGray-500 font-semibold py-1">
-              Copyright © <span id="get-current-year">2023</span>
+              Copyright © <span id="get-current-year">{new Date().getFullYear()}</span>
               <div className="hover:text-gray-800 cursor-pointer" >
               HACKAUT Inc. All rights reserved.
               </div>
