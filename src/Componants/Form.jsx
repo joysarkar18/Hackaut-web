@@ -7,7 +7,7 @@ const Form = () => {
   return (
     <div className="bodyc">
       <div className="contacthakaut">
-        <div class="container">
+        <div class="container text-blue-600 ">
           <div class="content">
             <div class="left-side">
               <div class="address details">
@@ -69,7 +69,7 @@ const Form = () => {
                 club, feel free to reach out. We're here to assist you, and it's
                 our pleasure to help!
               </p>
-              <form action="#">
+              <form action="#" class="text-center">
                 <div class="input-box">
                   <input type="text" placeholder="Enter your name" />
                 </div>
@@ -81,7 +81,7 @@ const Form = () => {
                     <input type="text" placeholder="Enter your query" />
                   </div>
                 </div>
-                <div class="button">
+                <div class="button bg-blue-600 hover:bg-blue-800 rounded-lg">
                   {/* <input type="button" value="Send Now"/>  */}
                   <button type="submit">Send Now</button>
                 </div>

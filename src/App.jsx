@@ -14,6 +14,7 @@ import HomeContent from "./Componants/HomeContent";
 import { Feature } from "./Componants/features";
 import { Footer } from "./Componants/footer";
 import Footer2 from "./Componants/Footer2";
+import Loader from "./Componants/Loader/Loader";
 function App() {
   const [nav, setNav] = useState(false);
 
@@ -47,6 +48,14 @@ function App() {
           <NavBar2 nav={nav} setNav={setNav} />
           <Error />
           <Footer2 />
+        </>
+      ),
+    },
+    {
+      path: "loader",
+      element: (
+        <>
+          <Loader/>
         </>
       ),
     },

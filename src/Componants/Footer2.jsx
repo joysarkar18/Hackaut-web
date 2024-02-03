@@ -8,7 +8,7 @@ function Footer() {
       <div className="container1 mx-auto px-4">
         <div className="lg:flex lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
-            <h4 className="text-3xl font-bold text-black">HAKAUT</h4>
+            <h4 className="text-3xl font-bold text-black">HACKAUT</h4>
             <h5 className="text-lg mt-0 mb-2 text-blue-600">
             In our development community, we focused on brushing up
                   skills, team management and verious other aspects of professional life . 
