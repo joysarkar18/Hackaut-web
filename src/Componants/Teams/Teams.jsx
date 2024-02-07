@@ -12,10 +12,10 @@ export const Teams = () => {
         </p>
       </div>
       <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg flex justify-content-center">
-        <TeamCard />
-        <TeamCard />
-        <TeamCard />
-        <TeamCard />
+        <TeamCard name="Joy Sarkar" role="Hackaut Lead" />
+        <TeamCard name="Dilip Sarkar" role="Hackaut Co-Lead" />
+        {/* <TeamCard name="Joy Sarkar" role="Hackaut Lead" />
+        <TeamCard name="Dilip Sarkar" role="Hackaut Co-Lead" /> */}
       </div>
     </div>
   );

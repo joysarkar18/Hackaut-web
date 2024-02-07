@@ -16,6 +16,7 @@ import { Footer } from "./Componants/footer";
 import Footer2 from "./Componants/Footer2";
 import Loader from "./Componants/Loader/Loader";
 import { Teams } from "./Componants/Teams/Teams";
+import Component from "./Componants/Teams2/teams2";
 function App() {
   const [nav, setNav] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -71,6 +72,16 @@ function App() {
         <>
           <NavBar2 nav={nav} setNav={setNav} />
           <Teams/>
+          <Footer2 />
+        </>
+      ),
+    },
+    {
+      path: "team2",
+      element: (
+        <>
+          <NavBar2 nav={nav} setNav={setNav} />
+          <Component/>
           <Footer2 />
         </>
       ),
