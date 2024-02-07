@@ -2,7 +2,7 @@ import React from "react";
 
 export const Cards = (props) => {
   return (
-    <div className="flex flex-col justify-between p-5 border rounded-lg shadow-sm bg-white">
+    <div className="flex flex-col justify-between p-5 border rounded-lg shadow-sm hover:shadow-xl transition duration-300 cursor-default bg-white">
       <div>
         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-blue-50">
           <svg
