@@ -16,7 +16,8 @@ import { Footer } from "./Componants/footer";
 import Footer2 from "./Componants/Footer2";
 import Loader from "./Componants/Loader/Loader";
 import { Teams } from "./Componants/Teams/Teams";
-import Component from "./Componants/Teams2/teams2";
+import { Gallery } from "./Componants/Gallery/Gallery";
+
 function App() {
   const [nav, setNav] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -77,11 +78,11 @@ function App() {
       ),
     },
     {
-      path: "team2",
+      path: "gallery",
       element: (
         <>
           <NavBar2 nav={nav} setNav={setNav} />
-          <Component/>
+          <Gallery/>
           <Footer2 />
         </>
       ),

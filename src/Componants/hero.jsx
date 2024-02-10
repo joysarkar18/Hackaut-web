@@ -32,10 +32,10 @@ export const Hero = () => {
               MAKAUT
             </span>
           </h2>
-          <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+          <p className="pr-5 mb-5 text-base text-gray-900 md:text-lg">
             MAKAUT's premier tech club, HACKAUT, cultivates innovation, fosters
             skill development, and encourages collaboration, creating a vibrant
-            community of tech enthusiasts. Join us Today ✌️
+            community of tech enthusiasts. Join us Today.
           </p>
           <div className="flex items-center">
             <a
